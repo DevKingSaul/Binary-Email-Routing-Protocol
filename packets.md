@@ -12,7 +12,9 @@
 |      Field      | Offset | Size |  Type  |
 | --------------- | ------ | ---- | ------ |
 | Email Length    | 0      | 4    | UInt32 |
-| Email Address   | 4      | ...  | String |
+| Username        | 4      | ...  | String |
+| Separator (@)   | ...    | 1    | CONST  |
+| Domain          | ...    | ...  | String |
 
 # Old Email Format (Human-Readable / Text)
 #### This format will still be used for email clients
