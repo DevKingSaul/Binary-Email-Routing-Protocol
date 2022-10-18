@@ -26,3 +26,9 @@
 | ------------ | ------ | ---- | :------: |
 | Message Type | 0      | 2    | UInt16BE |
 | Extensions   | 2      | 2    | UInt16BE |
+
+# Server TCP Header
+# Error Code is 0 for Succesful message
+|     Field    | Offset | Size |   Type   |
+| ------------ | ------ | ---- | :------: |
+| Error Code   | 0      | 4    | UInt32BE |
